@@ -5,7 +5,5 @@ app.use(cors())
 app.get("/",(req,res)=>{
     res.send("hello")
 })
-app.get("/resume",(req,res)=>{
-    res.download("./resume.pdf")
-})
+
 app.listen(8080)
